@@ -1,0 +1,61 @@
+body {
+   background-color: antiquewhite;
+}
+
+.browse {
+   width: 10%;
+}
+
+.sectionimg {
+width: 40%;
+
+}
+
+.articleimg {
+   width: 40%;
+}
+
+.headrimg {
+   width: 40%;
+}
+
+.footerimg {
+   width: 40%;
+}
+
+h1 {
+   color: red;
+}
+
+.level-1 {
+   color: blue;
+}
+
+.level-2 {
+   color: blue;
+}
+
+
+.level-3 {
+   color: blue;
+}
+
+
+.level-4 {
+   color: blue;
+}
+
+
+.level-5 {
+   color: blue;
+}
+
+
+.level-6 {
+   color: blue;
+}
+
+.cv {
+height: 300%;
+width: 75%;
+}

@@ -1,0 +1,74 @@
+body {
+   padding-top: 10px;
+}
+
+.page1{
+display: block;
+margin: auto
+}
+
+
+.logo{
+  padding-top: 100px;
+  margin: auto;
+ }
+
+ 
+ .logos{
+   width: 970px;
+   height: 564px;
+   text-align: center;
+   margin: auto;
+   padding-top: 200px;
+}
+
+  
+   .logos img{
+ margin-right: 150px;
+ padding-top: 25px;
+}
+  
+   #logo-4{
+      margin-right: 0px;
+}
+
+
+#star2{
+margin-right: 50px;
+margin-left: 0px;
+}
+
+#star3{
+ margin-left: 25px;
+ margin-right: 35px;
+}
+
+#star4{
+margin-right: 34px;
+margin-left: 25px;
+}
+
+#star5{
+margin-left: 5px;
+margin-right: 0px;
+}
+
+.fashion{
+   text-align: center;
+}
+
+.reebok{
+   text-align: center;
+}
+
+.braun{
+   text-align: center;
+}
+
+.messengers{
+   text-align: center;
+   padding-top: 25px;
+}
+
+
+
