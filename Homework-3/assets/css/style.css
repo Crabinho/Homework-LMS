@@ -1,15 +1,135 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
 body {
    padding-top: 10px;
+   font-family: 'Open Sans', sans-serif;
 }
+
+header {
+   text-align: center;
+   margin-bottom: 20px;
+   width: 400;
+}
+
+ul {
+   list-style-type: none;
+   text-align: center;
+   padding: 0px;
+}
+
+li {
+   width: 53px;
+   height: 25px;
+   display: inline;
+   margin-right: 27.5px;
+   size: 18px;
+   line-height: 24.51px;
+   letter-spacing: 2%;
+
+}
+
+h1{
+   width: 300px;
+   height: 60px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 65px;
+   text-align: center;
+}
+
+
+
 
 .page1{
 display: block;
-margin: auto
+margin: auto;
+width: 970px;
+height: 387px;
 }
 
+.about {
+   padding-top: 100px;
+}
+
+h2 {
+   width: 200px;
+   height: 40px;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 46px;
+   padding-top: 100px;
+   text-align: center;
+   margin: auto;
+}
+
+.text1 {
+width: 406px;
+height: 50px;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+padding-top: 100px;
+margin: auto;
+}
+
+.text2 {
+width: 406px;
+height: 50px;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+padding-top: 100px;
+margin: auto;
+}
+
+.text3 {
+width: 321px;
+height: 50px;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+padding-top: 100px;
+margin: auto;
+}
+
+.skills{
+   padding-top: 200px;
+}
+
+#skil {
+
+width: 120px;
+height: 40px;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+padding-top: 20px;
+
+}
+
+.text4 {
+width: 250px;
+height: 24px;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+margin: auto;
+padding-top: 50px;
+}
 
 .logo{
-  padding-top: 100px;
+  padding-top: 50px;
   margin: auto;
  }
 
