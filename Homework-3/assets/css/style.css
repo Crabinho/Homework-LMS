@@ -1,194 +1,364 @@
 * {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-   padding-top: 10px;
-   font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-   text-align: center;
-   margin-bottom: 20px;
-   width: 400;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 400;
 }
 
 ul {
-   list-style-type: none;
-   text-align: center;
-   padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
 }
 
 li {
-   width: 53px;
-   height: 25px;
-   display: inline;
-   margin-right: 27.5px;
-   size: 18px;
-   line-height: 24.51px;
-   letter-spacing: 2%;
-
+  width: 53px;
+  height: 25px;
+  display: inline;
+  margin-right: 27.5px;
+  size: 18px;
+  line-height: 24.51px;
+  letter-spacing: 2%;
 }
 
-h1{
-   width: 300px;
-   height: 60px;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 48px;
-   line-height: 65px;
-   text-align: center;
+h1 {
+  width: 300px;
+  height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  margin-left: 385px;
 }
 
-
-
-
-.page1{
-display: block;
-margin: auto;
-width: 970px;
-height: 387px;
+.page1 {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
 }
 
 .about {
-   padding-top: 100px;
+  padding-top: 100px;
 }
 
 h2 {
-   width: 200px;
-   height: 40px;
-   font-weight: 700;
-   font-size: 34px;
-   line-height: 46px;
-   padding-top: 100px;
-   text-align: center;
-   margin: auto;
+  width: 200px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
 }
 
 .text1 {
-width: 406px;
-height: 50px;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-padding-top: 100px;
-margin: auto;
+  width: 406px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+  margin: auto;
 }
 
 .text2 {
-width: 406px;
-height: 50px;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-padding-top: 100px;
-margin: auto;
+  width: 406px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+  margin: auto;
 }
 
 .text3 {
-width: 321px;
-height: 50px;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-padding-top: 100px;
-margin: auto;
+  width: 321px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 100px;
+  margin: auto;
 }
 
-.skills{
-   padding-top: 200px;
+.skills {
+  padding-top: 200px;
 }
 
 #skil {
-
-width: 120px;
-height: 40px;
-font-weight: 700;
-font-size: 34px;
-line-height: 46px;
-text-align: center;
-padding-top: 20px;
-
+  width: 120px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
 }
 
 .text4 {
-width: 250px;
-height: 24px;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-margin: auto;
-padding-top: 50px;
-}
-
-.logo{
-  padding-top: 50px;
+  width: 250px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
   margin: auto;
- }
-
- 
- .logos{
-   width: 970px;
-   height: 564px;
-   text-align: center;
-   margin: auto;
-   padding-top: 200px;
+  padding-top: 50px;
 }
 
-  
-   .logos img{
- margin-right: 150px;
- padding-top: 25px;
-}
-  
-   #logo-4{
-      margin-right: 0px;
+.logo {
+  text-align: center;
+  padding-top: 100px;
 }
 
-
-#star2{
-margin-right: 50px;
-margin-left: 0px;
+.logo-text {
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
 }
 
-#star3{
- margin-left: 25px;
- margin-right: 35px;
+#ps {
+  text-align: center;
+  margin-left: 44.5px;
 }
 
-#star4{
-margin-right: 34px;
-margin-left: 25px;
+#ai {
+  margin-left: 187px;
 }
 
-#star5{
-margin-left: 5px;
-margin-right: 0px;
+#ae {
+  margin-left: 187px;
 }
 
-.fashion{
-   text-align: center;
+#figma {
+  margin-left: 187px;
+  margin-right: 57.5px;
 }
 
-.reebok{
-   text-align: center;
+.logo-text {
+  text-align: center;
+  padding-top: 25px;
+  margin: auto;
+  display: flex;
 }
 
-.braun{
-   text-align: center;
+#adobe {
+  width: 78px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  margin-left: 300px;
 }
 
-.messengers{
-   text-align: center;
-   padding-top: 25px;
+#Illustrator {
+  width: 75px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  margin-left: 195px;
 }
 
+#after {
+  width: 90px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  margin-left: 195px;
+}
 
+#figmas {
+  width: 44px;
+  height: 19px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-left: 195px;
+}
 
+.star {
+  display: flex;
+  text-align: center;
+}
+
+#star2 {
+  margin-left: 250px;
+}
+
+#star3 {
+  margin-left: 115px;
+}
+
+#star4 {
+  margin-left: 95px;
+}
+
+#star5 {
+  margin-left: 95px;
+}
+
+#porto {
+  width: 150px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+}
+
+#fashimg {
+  padding-top: 100px;
+}
+
+.store {
+  text-align: center;
+  padding-top: 201px;
+  margin: auto;
+}
+
+#fashstore {
+  width: 200px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: auto;
+  padding-top: 40px;
+}
+
+#rebookimg {
+  text-align: center;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#reebokstore {
+  width: 200px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#braunimg {
+  text-align: center;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#braunstore {
+  width: 260px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: auto;
+  padding-top: 70px;
+}
+
+footer {
+  padding-top: 200px;
+}
+
+#contacts {
+  width: 150px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  margin: auto;
+}
+
+#chat {
+  width: 280px;
+  height: 46px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.but {
+  padding-top: 100px;
+}
+
+#send {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  width: 180px;
+  height: 44px;
+  background: #070707;
+  border-radius: 22px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.messengers {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#linkedinimg {
+  margin-left: 0px;
+}
+
+#instagramimg {
+  margin-left: 50px;
+}
+
+#behanceimg {
+  margin-left: 50px;
+}
+
+#dribbbleimg {
+  margin-left: 50px;
+}
+
+#like {
+  width: 200px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: gray;
+  padding-top: 60px;
+  text-align: center;
+  margin: auto;
+}
