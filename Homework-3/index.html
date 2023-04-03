@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <title>Figma Homework</title>
   </head>
   <body>
@@ -17,11 +19,11 @@
       <div>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contacts</li>
+            <li><a href="#h1">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#skil">Skills</a></li>
+            <li><a href="#porto">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -34,7 +36,7 @@
       </div>
       <section class="about">
         <div>
-          <h2>About me</h2>
+          <h2 id="aboutme">About me</h2>
           <p class="text1">
             Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design
             and everything connected with it
@@ -87,11 +89,7 @@
           <p id="reebokstore">Reebok Store - Concept</p>
         </div>
         <div>
-          <img
-            id="braunimg"
-            src="/Homework-3/assets/img/braun-landing.jpg"
-            alt="braun"
-          />
+          <img id="braunimg" src="assets/img/braun-landing.jpg" alt="braun" />
           <p id="braunstore">Braun Landing Page - Concept</p>
         </div>
       </section>
@@ -102,17 +100,26 @@
         <p id="chat">Want to know more or just chat? You are welcome!</p>
       </div>
       <div class="but">
-        <button id="send">Send Messege</button>
+        <button onclick="location.href='mailto:andreycrab@gmail.com'" id="send">
+          Send Messege
+        </button>
       </div>
       <div class="messengers">
-        <img id="linkedinimg" src="assets/icon/linkedin.svg" alt="linkedin" />
-        <img
-          id="instagramimg"
-          src="assets/icon/instagram.svg"
-          alt="instagram"
-        />
-        <img id="behanceimg" src="assets/icon/behance.svg" alt="behance" />
-        <img id="dribbbleimg" src="assets/icon/dribbble.svg" alt="dribbble" />
+        <a href="https://ua.linkedin.com/"
+          ><img id="linkedinimg" src="assets/icon/linkedin.svg" alt="linkedin"
+        /></a>
+        <a href="https://www.instagram.com/hideo_kojima/"
+          ><img
+            id="instagramimg"
+            src="/Homework-3/assets/icon/instagram.svg"
+            alt="instagram"
+        /></a>
+        <a href="https://www.behance.net/"
+          ><img id="behanceimg" src="assets/icon/behance.svg" alt="behance"
+        /></a>
+        <a href="https://dribbble.com/"
+          ><img id="dribbbleimg" src="assets/icon/dribbble.svg" alt="dribbble"
+        /></a>
       </div>
       <div>
         <p id="like">Like me on LinkedIn, Instagram, Behance, Dribble</p>
