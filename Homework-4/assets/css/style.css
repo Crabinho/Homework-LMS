@@ -1,9 +1,33 @@
 body{
    background-color: darkgrey;
+  
 }
 
 form{
    text-align: center;
    padding-top: 100px;
+   margin: auto;
+  
+
 }
 
+.email {
+   padding-left: 33px;
+}
+
+.pass {
+   padding-left: 23px;
+}
+
+#comfpass {
+   padding-right: 75px;
+   display: inline;
+   margin-left: 0px;
+}
+
+.confirm {
+
+   padding-right: 129px;
+   display: inline-block;
+  
+}
