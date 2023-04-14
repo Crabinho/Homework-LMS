@@ -1,5 +1,11 @@
 @font-face {
-  
+  font-family: "lucida-Sans-Unicode";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://fonts.cdnfonts.com/css/lucida-sans");
+
+
+                
 }
 
 * {
@@ -45,11 +51,8 @@ main {
 
 }
 
-.subtext {
-  margin-top: 37px;
-  font-size: 16px;
-  padding-left: 2px;
-}
+
+
 
 .weather {
   background-color: #fff;
@@ -78,12 +81,12 @@ cursor: pointer;
   margin-bottom: 12px;
 }
 
-.temp__icon {
+.icon {
   color: rgba (255,255,255, .7);
 }
 
 
-.temp__val {
+.temperature {
   display: inline-block;
   font-size: 22px;
   line-height: 26px;
@@ -153,8 +156,15 @@ cursor: pointer;
   width: 100%;
 }
 
+.text {
+  margin-top: 37px;
+  font-size: 16px;
+  padding-left: 2px;
+
+}
+
 .weather:hover li:not(:hover) {
-  opacity: 0.7;
+ opacity: 0.7;
 }
 
 
