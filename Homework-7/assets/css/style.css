@@ -19,7 +19,6 @@ body {
   height: 54px;
   left: 120px;
   top: 13px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .lang {
@@ -35,7 +34,6 @@ body {
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.04em;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 nav {
@@ -50,7 +48,6 @@ nav {
   height: 20px;
   left: calc(50% - 261px / 2 - 369.5px);
   top: calc(50% - 20px / 2);
-  transform: matrix(1, 0, 0, 1, 0, 0);
   list-style: none;
 }
 
@@ -65,7 +62,6 @@ nav {
   letter-spacing: 0.03em;
   color: #000000;
   mix-blend-mode: normal;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .slash {
@@ -79,7 +75,6 @@ nav {
   letter-spacing: 0.03em;
   color: #000000;
   mix-blend-mode: normal;
-  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .who {
