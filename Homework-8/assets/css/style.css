@@ -6,7 +6,7 @@
  
  body {
    background-color: #fff;
-   background-image: url(/assets/icons/bg-picture.png);
+   background-image: url(../icons/bg-picture.png);
    background-size: 700px 700px;
    background-position: right -9px top 112px;
    background-repeat: no-repeat;
