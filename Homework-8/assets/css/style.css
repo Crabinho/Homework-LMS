@@ -264,13 +264,11 @@ color: #000000;
    
  }
  
-.picture {
-  position: fixed;
-  left: 56.39%;
-  right: -9.17%;
-  top: 4.87%;
-  bottom: 70.46%;
-
+.divider {
+width: 100px;
+height: 8px;
+margin-bottom: 20px;
+background: #000000;
 }
 
  .title-container {
