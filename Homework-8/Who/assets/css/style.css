@@ -192,9 +192,21 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-
+transition: transform 0.5s;
 }
 
+.logo-facebook:hover {
+  transform: rotateX(180deg);
+  background-color: #000;
+}
+
+.logo-facebook img {
+  transition: filter 0.5s;
+}
+
+.logo-facebook:hover img {
+  filter: brightness(0) invert(1);
+}
 
  
 
