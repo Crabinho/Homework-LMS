@@ -1,0 +1,288 @@
+
+* {
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+ }
+ 
+
+body {
+
+  background: #FFFFFF;
+
+}
+
+
+conteiner__header {
+   width: min(90%, 1200px);
+   margin: 0 auto;
+ }
+ 
+ .title-header {
+   position: absolute;
+   width: 1200px;
+   height: 54px;
+   left: 120px;
+   top: 13px;
+   position: fixed;
+ }
+ 
+ .lang {
+   box-sizing: border-box;
+   position: absolute;
+   left: 0%;
+   right: 95.83%;
+   bottom: 32.63%;
+   font-family: "tourneysemibold";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 18px;
+   text-align: center;
+   letter-spacing: 0.04em;
+ }
+ 
+ nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   gap: 10px;
+   position: absolute;
+   width: 261px;
+   height: 20px;
+   left: calc(50% - 261px / 2 - 369.5px);
+   top: calc(50% - 20px / 2);
+   list-style: none;
+ }
+ 
+ .doc {
+   width: 130px;
+   height: 28px;
+   font-family: "staatlichesregular";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: 0.03em;
+   color: #000000;
+   mix-blend-mode: normal;
+ }
+ 
+ .slash {
+   width: 8px;
+   height: 28px;
+   font-family: "staatlichesregular";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: 0.03em;
+   color: #000000;
+   mix-blend-mode: normal;
+ }
+ 
+ .who {
+   width: 105px;
+   height: 28px;
+   font-family: "staatlichesregular";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: 0.03em;
+   color: #000000;
+   mix-blend-mode: normal;
+ }
+ 
+ .logo {
+   position: absolute;
+   width: 238px;
+   height: 54px;
+   left: 1150px;
+   top: 0px;
+   
+ }
+
+ .main-container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+ 
+ 
+
+ .title {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+position: absolute;
+width: 326px;
+height: 48px;
+left: 120px;
+top: 150px;
+}
+
+h2 {
+width: 209px;
+height: 48px;
+font-family: 'robotobold';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.04em;
+color: #000000;
+}
+
+.divider {
+width: 100px;
+height: 8px;
+background: #000000;
+}
+
+.title-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0px;
+  gap: 30px;
+  position: absolute;
+  width: 1200px;
+  height: 430px;
+  left: 120px;
+  top: 238px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #BFBFBF;
+}
+
+.row-1 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 30px;
+width: 1200px;
+height: 180px;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 30px;
+  
+  width: 1200px;
+  height: 180px;
+}
+
+.logo-facebook{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+
+}
+
+.pic-face{
+  background-color: #fff;
+ 
+ 
+
+}
+
+.logo-insta {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 30px;
+isolation: isolate;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-shopi {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-skype {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-pinterest {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-wix {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-saleforse {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
+
+.logo-soundcloud {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+width: 270px;
+height: 180px;
+background: #E6E6E6;
+border-radius: 8px;
+}
