@@ -194,7 +194,7 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
 
 }
 
@@ -228,7 +228,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 
@@ -258,7 +259,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-shopi:hover {
@@ -287,7 +289,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-skype:hover {
@@ -316,7 +319,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-pinterest:hover {
@@ -345,7 +349,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-wix:hover {
@@ -375,7 +380,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-saleforse:hover {
@@ -405,7 +411,8 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 1s;
+transition: transform 0.9s ease;
+
 }
 
 .logo-soundcloud:hover {
