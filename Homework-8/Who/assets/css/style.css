@@ -182,6 +182,8 @@ height: 180px;
   height: 180px;
 }
 
+
+
 .logo-facebook{
 display: flex;
 flex-direction: column;
@@ -192,16 +194,19 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
-transition: transform 0.5s;
+transition: transform 1s;
+
 }
 
 .logo-facebook:hover {
-  transform: rotateX(180deg);
+  transform: rotateX(360deg);
   background-color: #000;
 }
 
 .logo-facebook img {
   transition: filter 0.5s;
+  
+  
 }
 
 .logo-facebook:hover img {
@@ -223,7 +228,25 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
 }
+
+
+.logo-insta:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-insta img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-insta:hover img {
+  filter: brightness(0) invert(1);
+}
+
 
 .logo-shopi {
 display: flex;
@@ -235,7 +258,24 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
 }
+
+.logo-shopi:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-shopi img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-shopi:hover img {
+  filter: brightness(0) invert(1);
+}
+
 
 .logo-skype {
 display: flex;
@@ -247,6 +287,23 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
+}
+
+.logo-skype:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-skype img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-skype:hover img {
+  filter: brightness(0) invert(1);
+
 }
 
 .logo-pinterest {
@@ -259,6 +316,23 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
+}
+
+.logo-pinterest:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-pinterest img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-pinterest:hover img {
+  filter: brightness(0) invert(1);
+
 }
 
 .logo-wix {
@@ -271,7 +345,25 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
 }
+
+.logo-wix:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-wix img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-wix:hover img {
+  filter: brightness(0) invert(1);
+
+}
+
 
 .logo-saleforse {
 display: flex;
@@ -283,7 +375,25 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
 }
+
+.logo-saleforse:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-saleforseimg {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-saleforse:hover img {
+  filter: brightness(0) invert(1);
+
+}
+
 
 .logo-soundcloud {
 display: flex;
@@ -295,4 +405,21 @@ width: 270px;
 height: 180px;
 background: #E6E6E6;
 border-radius: 8px;
+transition: transform 1s;
+}
+
+.logo-soundcloud:hover {
+  transform: rotateX(360deg);
+  background-color: #000;
+}
+
+.logo-soundcloud img {
+  transition: filter 0.5s;
+  
+  
+}
+
+.logo-soundcloud:hover img {
+  filter: brightness(0) invert(1);
+
 }
