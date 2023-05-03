@@ -169,5 +169,18 @@ cursor: pointer;
 }
 
 
+@media (max-width: 860px) {
+  .weather li {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 405px) {
+ .weather li, 
+ .weather li.w50{
+    width: 100%;
+  }
+}
 
 
