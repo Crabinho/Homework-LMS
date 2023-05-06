@@ -1,0 +1,191 @@
+$color-font: #7B7B7B;
+
+$color-title: #000;
+
+*, *::before, *::after {
+ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin fz($px_size) {
+  font-size: ($px_size / 16) * 1rem;
+}
+
+@mixin lh($px_size) {
+  line-height: ($px_size / 16) * 1rem;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  @include fz(16);
+  @include lh(20);
+  color: $color-font;
+}
+
+.red-hat-font {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+ul, ol {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a, button {
+  transition: all .2s ease;
+}
+
+.container {
+  width: min(90%, 1170px);
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+   .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 84px;
+   }
+
+   .logo {
+   margin-right: auto;
+   width: 145px;
+   }
+
+  }
+
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 100px ;
+}
+
+.main-menu ul {
+  display: flex;
+    gap: 42px;
+  a {
+    position: relative;
+    @include fz(14);
+    @include lh (17);
+    color: #000;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    &::after {
+     content: "";
+     position: absolute; 
+     background-color: #000;
+     width: 0px;
+     height: 1px;
+     bottom: -5px;
+     left: 50%;
+     transform: translateX(-50%);
+     transition: all 0.2s ease;
+
+    }
+    &:hover, &.active {
+    &::after {
+      width: 40px;
+    }
+    }
+  }
+}
+
+.hamburger {
+  display: none;
+
+}
+
+.search-btn {
+  border: none;
+  background: none;
+}
+
+.section-first {
+
+  background-image: url("../images/bg-image.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 144/60;
+  padding-top: 100px;
+
+}
+
+h1 {
+  color: $color-title;
+  @include fz (48);
+  @include lh (64);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  max-width: 770px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .main-menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .section-first {
+    background-image: url("../images/bg-image-m.jpg");
+    aspect-ratio: 768/320;
+    padding-top: 30px;
+  }
+
+  h1 {
+    @include fz(36);
+    @include lh(50);
+    max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .section-first {
+    background-image: url("../images/bg-image-s.jpg");
+    aspect-ratio: 32/50;
+    padding-top: 70px;
+  }
+
+  h1 {
+    @include fz(30);
+    }
+
+    header .container {
+      gap: 10px;
+    }
+
+}
+
